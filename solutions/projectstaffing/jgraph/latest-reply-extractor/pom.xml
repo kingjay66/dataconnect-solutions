@@ -28,7 +28,7 @@
         <encoding>UTF-8</encoding>
         <scala.version>2.11.12</scala.version>
         <scala.binary.version>2.11</scala.binary.version>
-        <spark.version>2.4.5</spark.version>
+        <spark.version>2.4.6</spark.version>
         <logback.version>1.2.3</logback.version>
         <main.class>com.microsoft.graphdataconnect.skillsfinder.replyextractor.job.Runner</main.class>
     </properties>
@@ -266,14 +266,11 @@
                                 </relocation>
                             </relocations>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>resource.conf</resource>
                                 </transformer>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>${main.class}</mainClass>
                                     <manifestEntries>
                                         <Maven-Version>${project.version}</Maven-Version>
