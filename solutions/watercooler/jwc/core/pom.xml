@@ -28,12 +28,12 @@
         <scala.version>2.12.13</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
         <spec2.version>4.3.4</spec2.version>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.4.12</logback.version>
         <dockerUsername/>
         <dockerPassword/>
         <dockerTag>latest</dockerTag>
         <azure.version>3.0.0-beta.1</azure.version>
-        <spring.version>2.4.3</spring.version>
+        <spring.version>2.7.18</spring.version>
         <tomcat-jdbc.version>9.0.27</tomcat-jdbc.version>
         <main.class>com.microsoft.graphdataconnect.watercooler.core.Runner</main.class>
     </properties>
