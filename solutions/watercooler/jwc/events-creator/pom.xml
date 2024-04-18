@@ -35,7 +35,7 @@
         <dockerTag>latest</dockerTag>
         <azure.version>3.0.0-beta.1</azure.version>
         <jackson.version>2.10.0</jackson.version>
-        <spark.version>3.1.1</spark.version>
+        <spark.version>3.4.3</spark.version>
         <hadoop.version>3.3.0</hadoop.version>
         <main.class>com.microsoft.graphdataconnect.watercooler.events.creator.Runner</main.class>
     </properties>
@@ -470,14 +470,11 @@
                         </goals>
                         <configuration>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>resource.conf</resource>
                                 </transformer>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>${main.class}</mainClass>
                                     <manifestEntries>
                                         <Maven-Version>${project.version}</Maven-Version>
