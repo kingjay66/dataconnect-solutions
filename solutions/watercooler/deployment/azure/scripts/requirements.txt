@@ -4,3 +4,4 @@ azure-cli
 databricks-api~=0.5.1
 argparse
 retry
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
