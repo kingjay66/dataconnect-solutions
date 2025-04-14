@@ -38,7 +38,7 @@
         <spring.version>2.4.0.RELEASE</spring.version>
         <tomcat-jdbc.version>9.0.27</tomcat-jdbc.version>
         <main.class>com.microsoft.graphdataconnect.skillsfinder.Runner</main.class>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.13</logback.version>
     </properties>
 
     <dependencyManagement>
