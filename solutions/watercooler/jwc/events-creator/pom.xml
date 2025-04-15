@@ -88,7 +88,7 @@
         <dependency>
             <groupId>com.azure</groupId>
             <artifactId>azure-identity</artifactId>
-            <version>1.1.2</version>
+            <version>1.12.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.fasterxml.jackson.datatype</groupId>
@@ -172,7 +172,7 @@
         <dependency>
             <groupId>com.microsoft.graph</groupId>
             <artifactId>microsoft-graph</artifactId>
-            <version>3.2.0</version>
+            <version>3.5.0</version>
         </dependency>
         <dependency>
             <groupId>com.microsoft.azure</groupId>
@@ -200,7 +200,7 @@
         <dependency>
             <groupId>com.microsoft.azure</groupId>
             <artifactId>msal4j</artifactId>
-            <version>1.9.1</version>
+            <version>1.15.1</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.fasterxml.jackson.core</groupId>
