@@ -19,3 +19,4 @@ spacy==2.3.1
 tqdm==4.55.1
 wheel==0.36.2
 pyyaml==5.4.1
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
