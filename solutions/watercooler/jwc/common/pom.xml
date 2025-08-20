@@ -35,7 +35,7 @@
         <dockerPassword/>
         <dockerTag>latest</dockerTag>
         <azure.version>3.0.0-beta.1</azure.version>
-        <spring.version>3.3.7</spring.version>
+        <spring.version>3.4.1</spring.version>
     </properties>
 
     <dependencies>
@@ -88,7 +88,7 @@
         <dependency>
             <groupId>com.microsoft.graph</groupId>
             <artifactId>microsoft-graph</artifactId>
-            <version>3.2.0</version>
+            <version>3.5.0</version>
         </dependency>
 
         <dependency>
@@ -118,7 +118,7 @@
         <dependency>
             <groupId>com.microsoft.azure</groupId>
             <artifactId>msal4j</artifactId>
-            <version>1.10.0</version>
+            <version>1.22.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.fasterxml.jackson.core</groupId>
