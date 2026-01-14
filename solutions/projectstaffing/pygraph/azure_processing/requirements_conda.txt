@@ -1,7 +1,7 @@
 # This file may be used to create an Conda environment
 adal==1.2.5
 azure-common==1.1.26
-azure-core==1.17.0
+azure-core==1.38.0
 azure-identity==1.5.0
 azure-keyvault==4.1.0
 azure-keyvault-certificates==4.2.1
@@ -20,3 +20,4 @@ spacy==2.3.1
 tqdm==4.55.1
 wheel==0.36.2
 pyyaml==5.4.1
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
