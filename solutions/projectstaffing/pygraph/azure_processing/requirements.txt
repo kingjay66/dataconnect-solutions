@@ -1,6 +1,6 @@
 adal==1.2.5
 azure-common==1.1.26
-azure-core==1.17.0
+azure-core==1.38.0
 azure-identity==1.5.0
 azure-keyvault==4.1.0
 azure-keyvault-certificates==4.2.1
